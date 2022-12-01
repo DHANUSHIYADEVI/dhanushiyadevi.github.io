@@ -11,9 +11,6 @@
 <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-<% out.println(System.getProperty("user.dir")); 
-Faker f = new Faker();
-out.println(f.lorem().paragraph());%>
 <div class="form">
   <h1> Data Population Tool</h1>
   <form method="POST" action="Populate">
